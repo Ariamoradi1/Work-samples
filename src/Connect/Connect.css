@@ -1,0 +1,67 @@
+.connect{
+
+    width: 100%;
+    height: 900px;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.connect-h1{
+
+    padding: 50px;
+    font-size: 60px;
+}
+
+.adress{
+
+
+    display: flex; 
+    justify-content: space-around;
+}
+
+.inputs{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+input{
+
+    border: none;
+    padding: 10px;
+    background-color: white;
+    width: 200px;
+    border: 0.5px solid black;
+}
+
+textarea{
+
+    width: 1000px;
+    height: 400px;
+    margin-top: 50px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.connect-button{
+
+
+    position: relative;
+    top: 60px;
+    border: none;
+    padding: 30px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.connect-button:hover{
+
+    background-color: aqua;
+    color: black;
+}
